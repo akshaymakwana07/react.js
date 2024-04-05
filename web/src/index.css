@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header{
+  width: 100%;
+
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  width: 15%;
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo img {
+  width: 80%;
+  height: 80%;
+}
+
+.nav {
+  width: 50%;
+  height: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav a{
+  font-size: 22px;
+  font-weight: bolder;
+}
+.nav a:hover{
+  color: #27AE93;
+}
+
+.icon{
+  width: 15%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon i {
+  font-size: 22px;
+  
+}
+.sec-1{
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid black; */
+  background-image: url(https://livedemo00.template-help.com/wt_prod-10492/theme/images/poultry-farm/slide-2.jpg);
+  background-size: cover;
+}
+
+.sec-1 h5 {
+  padding-top: 100px;
+  padding-left: 200px;
+  color: white;
+}
+.sec-1 h1{
+  padding-left: 200px;
+  font-size: 60px;
+  color: white;
+}
+.sec-1 p{
+  padding-left: 200px;
+  color: white;
+}
+
+.sec-1 button{
+  margin-left: 200px;
+  color: white;
+  background-color: #27AE93;
+  padding: 13px;
+  border-radius: 20px;
+  border: none;
+}
+
+
+.sec-2{
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.farm{
+  width: 80%;
+  height: 600px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.farm-1{
+  width: 48%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.ourfarm{
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid black; */
+  
+}
+.ourfarm img{
+  width: 100%;
+  height: 100%;
+}
+.ourfarm1{
+  width: 100%;
+  height: 150px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ourfarm1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-1{
+  width: 23%;
+  height: 90%;
+  /* border: 1px solid black; */
+}
+.farm-2{
+  width: 48%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+.farm-2 h4 {
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #27AE93;
+}
+.farm-2 h1{
+  margin-left: 50px;
+  font-size: 60px;
+  font-weight: bolder;
+}
+.farm-2 h2{
+  margin-left: 50px;
+}
+.farm-2 p {
+  margin-left: 50px;
+}
+.farm-2 button{
+  margin-left: 50px;
+  padding: 20px;
+  background-color: #27AE93;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.sec-3{
+  width: 100%;
+  height: 500px;
+  border: 1px solid white; 
+  background-image: url(https://livedemo00.template-help.com/wt_prod-10492/theme/images/poultry-farm/parallax-1.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  /* border: none; */
+}
+.sec-3 h1 {
+  font-size: 80px;
+  padding-top: 50px;
+}
+.sec-3 p {
+  font-size: 25px;
+}
+.sec-3 button {
+  padding: 20px;
+  background-color: #27AE93;
+  color: white;
+  border: none;
+  border-radius: 20px;
+}
+
+.sec_4{
+  width: 100%;
+  height: 250px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.sec_4 h4 {
+  color: #27AE93;
+  padding-top: 50px;
+}
+.sec_4 h1 {
+  font-size: 50px;
+
+}
+
+.sec-5{
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ph-1{
+  width: 32%;
+  height: 300px;
+  /* border: 1px solid black; */
+}
+.ph-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+
+footer {
+  width: 100%;
+  height: 400px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #444A4D;
+}
+.fooy{
+  width: 80%;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.ftr{
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid black; */
+  color: white;
+}
+.ftr h5 {
+  color: white;
+}
+.ftr span {
+  color: #27AE93;
+}
+#icon {
+  font-size: 25px;
+ 
+}
+#icon i{
+  margin-left: 20px;
+}
