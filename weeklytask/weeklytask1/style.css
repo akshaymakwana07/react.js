@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-fluid{
+    width: 100%;
+    height: inherit;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+
+    width: 50%;
+    height: inherit;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+#btn-1{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+}
+#taskList{
+    list-style: none;
+    margin-top: 5px;
+}
+
+.butt-1{
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.butt-2{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+
+
+
+
+
