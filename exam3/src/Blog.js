@@ -40,7 +40,6 @@ function Blog(props) {
                 <td>{k.price}</td>
                 <td>{k.expiry}</td>
                 </tr>
-            
 
     )
 
