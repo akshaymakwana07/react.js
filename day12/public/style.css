@@ -1,0 +1,833 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+  
+  
+}
+#image {
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)), url(image/hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+#image h1 {
+    font-size: 50px;
+}
+#image p {
+    font-size: 20px;
+}
+#image a {
+    text-decoration: none;
+    color: #32DBC6;
+}
+#image button {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #32DBC6;
+    border: none;
+}
+#image button:hover {
+    color: white;
+   
+}
+
+
+
+.work {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.wk {
+    width: 70%;
+    height: 400px;
+    /* border: 1px solid black; */
+}
+
+.innovate {
+    width: 30%;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.innovate h1 {
+    color: #32DBC6;
+}
+.innovate p {
+    font-size: 18x;
+}
+.innovate h3 {
+    font-size: 22px;
+}
+.innovate i {
+    color: #32DBC6;
+}
+
+
+.our-work {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+
+
+.our {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.or1 {
+    width: 30%;
+    height: 450px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.or1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.or1 h1{
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    display: none;
+}
+
+
+.or1:hover img{
+    filter: brightness(50%);
+}
+
+.or1:hover h1{
+    display: block;
+    color: white;
+}
+
+
+.our-services {
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our-1 {
+    width: 100%;
+    height: 200px;
+}
+
+.services {
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.srv1 {
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.sv-1 {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.sv-1 i{
+    font-size: 45px;
+    color: #32DBC6;
+    
+
+}
+.sv-2 {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+.sv-2 h1 {
+    font-size: 22px;
+}
+
+.sv-2 a {
+    text-decoration: none;
+    color: #32DBC6;
+}
+
+
+
+.about-us {
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+
+.about {
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+.us {
+    width: 48%;
+    height: 500px;
+    /* border: 1px solid black; */
+    
+}
+
+.ab1 {
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.abt1 {
+    width: 48%;
+    height:250px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.abt1 i {
+    font-size: 50px;
+    color: #6C757D;
+}
+.abt1 h1 {
+    font-size: 20px ;
+}
+.abt1 a {
+    text-decoration: none;
+    color: #32DBC6;
+}
+.us2 {
+    width: 48%;
+    height: 500px;
+    /* border: 1px solid black; */
+    text-align: center;
+ 
+    
+}
+.us2 img{
+    width: 80%;
+    height: 80%;
+
+}
+
+.our-team {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.otm {
+    width: 100%;
+    height: 200px;
+}
+.team {
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+.tm1 {
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.tm1 img{
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+}
+
+.tm1 i {
+    font-size: 20px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #777777;
+    color: white;
+    border-radius: 50%;
+}
+
+.tm1 i:hover {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+.our-blog {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blg {
+    width: 100%;
+    height: 200px;
+}
+.blog {
+    width: 70%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+.bl1 {
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.bl1 img {
+    width: 100%;
+    height: 55%;
+}
+.bl1 h3 {
+    font-size: 23px;
+    color: #32DBC6;
+}
+.bl1 a {
+    color: #32DBC6;
+    text-decoration: none;
+}
+
+.contect-us {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F9FA;
+}
+
+.cnt {
+    width: 100%;
+    height: 20vh;
+}
+
+.contect {
+    width: 70%;
+    height: 80vh;
+    /* border: 1px solid black; */
+}
+
+.cant {
+    width: 48%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: #FFFFFF;
+    padding: 20px;
+ 
+}
+.cant label{
+    padding-left: 20px;
+}
+.cant input{
+    
+    border-radius: 20px;
+}
+.cant button {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: #32DBC6;
+    border: none;
+}
+
+.cant button:hover {
+    background-color: #21b5a4;
+}
+
+.cant2 {
+    width: 48%;
+    height: 100%;
+    /* border: 1px solid black; */
+    background-color: #F8F9FA;
+   
+}
+.ca2 {
+    width: 70%;
+    height: 300px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.ca2 h1 {
+    font-size: 20px;
+}
+.ca2 h4 {
+    font-size: 15px;
+    color: #32DBC6;
+}
+
+.started {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    color: #FFFFFF;
+    background-color: #32DBC6;
+}
+.started:hover {
+    background-color: #21b5a4;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    background-color: black;
+}
+.ft {
+    width: 70%;
+    height: 300px;
+    border: 1px solid black;
+}
+.ftr {
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+    text-align:center ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px)
+
+{
+     #image h1 {
+        font-size: 45px;
+    }
+    #image p {
+        font-size: 20px;
+    }
+
+     .work {
+        height: auto;
+
+    }
+    .wk {
+        height: auto;
+ 
+        width: 100%;
+    }
+    .innovate p {
+        font-size: 15px;
+    }
+    .innovate h3 {
+        font-size: 15px;
+    }
+
+    .our {
+        height: auto;
+        
+    }
+    .or1 {
+        height: auto;
+        
+        margin-top: 10px;
+    }
+
+    .or1 h1{
+        top: 120px;
+        left: 60px;
+    }
+    .our-services {
+        height: auto;
+    }
+    .services {
+        height: auto;
+        width: 100%;
+
+    }
+    .sv-2 p {
+        font-size: 14px;
+    }
+
+
+    .about-us {
+        height: auto;
+    }
+    .about {
+        height: auto;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .us {
+        width: 100%;
+    }
+    .us2 {
+        width: 100%;
+    }
+    .our-team {
+        height: auto;
+    }
+    .team {
+        height: auto;
+        /* flex-wrap: wrap ; */
+        width: 100%;
+    }
+
+
+    .our-blog {
+        height: auto;
+    }
+    .blog {
+        height: auto;
+        /* flex-wrap: wrap ; */
+        width: 100%;
+    }
+
+    .blog h3 {
+        font-size: 20px;
+    }
+    .blog p {
+        font-size: 15px;
+    }
+ 
+     .contect-us {
+        height: auto;
+    }
+    .contect {
+        height: auto;
+        /* flex-direction: column; */
+        width: 100%;
+
+    }
+ 
+    .cant {
+        width: 100%;
+    }
+    .cant2 {
+        width: 100%;
+       
+    }
+
+ 
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px)
+
+{
+     #image h1 {
+        font-size: 35px;
+    }
+    #image p {
+        font-size: 15px;
+    }
+
+       .work {
+        height: auto;
+
+    }
+    .wk {
+        height: auto;
+   flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .innovate {
+
+        width: 45%;
+    }
+
+    .our {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .or1 {
+        height: auto;
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    .or1 h1{
+        top: 150px;
+        left: 80px;
+    }
+    .our-services {
+        height: auto;
+    }
+    .services {
+        height: auto;
+        width: 100%;
+
+    }
+    .srv1 {
+        width: 48%;
+    }
+    .sv-2 p {
+        font-size: 15px;
+    }
+
+    .about-us {
+        height: auto;
+    }
+    .about {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .us {
+        width: 100%;
+    }
+    .us2 {
+        width: 100%;
+    }
+ 
+    
+    .our-team {
+        height: auto;
+    }
+    .team {
+        height: auto;
+        flex-wrap: wrap ;
+        width: 100%;
+    }
+    .tm1 {
+        width: 48%;
+    }
+
+
+
+    .our-blog {
+        height: auto;
+    }
+    .blog {
+        height: auto;
+        flex-wrap: wrap ;
+        width: 100%;
+    }
+    .bl1 {
+        width: 48%;
+    }
+
+     .contect-us {
+        height: auto;
+    }
+    .contect {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+
+    }
+ 
+    .cant {
+        height: auto;
+        width: 100%;
+
+    }
+    .cant2 {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+    .ft {
+        height: auto;
+        flex-direction: column;
+    }
+    .ftr {
+        height: auto;
+        width: 100%;
+    }
+  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+
+{
+     #image h1 {
+        font-size: 35px;
+    }
+    #image p {
+        font-size: 15px;
+    }
+
+    .work {
+        height: auto;
+
+    }
+    .wk {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .innovate {
+
+        width: 90%;
+    }
+
+    .our {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .or1 {
+        height: auto;
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    .or1 h1{
+        top: 120px;
+        left: 50px;
+    }
+
+    .our-services {
+        height: auto;
+    }
+    .services {
+        height: auto;
+        width: 100%;
+
+    }
+    .srv1 {
+        width: 48%;
+    }
+    .sv-2 p {
+        font-size: 12px;
+    }
+
+
+    .about-us {
+        height: auto;
+    }
+    .about {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .us {
+        width: 100%;
+    }
+    .us2 {
+        width: 100%;
+    }
+
+    .our-team {
+        height: auto;
+    }
+    .team {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .tm1 {
+        width: 100%;
+    }
+
+    .our-blog {
+        height: auto;
+    }
+    .blog {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+    .bl1 {
+        width: 100%;
+    }
+
+
+    .contect-us {
+        height: auto;
+    }
+    .contect {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+
+    }
+ 
+    .cant {
+        width: 100%;
+    }
+    .cant2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    footer {
+        height: auto;
+    }
+    .ft {
+        height: auto;
+        flex-direction: column;
+    }
+    .ftr {
+        height: auto;
+        width: 100%;
+    }
+}

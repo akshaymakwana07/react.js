@@ -1,0 +1,654 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+} 
+
+
+.navbar-brand img {
+    width: 70%;
+ 
+}
+  
+
+
+
+.image {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+    background-image:linear-gradient(rgba(1,1,1,0.5),rgba(1,1,1,0.5)), url(image/hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+
+.container h1 {
+    font-size: 50px;
+    padding-top: 150px;
+    color: white;
+}
+
+.container p {
+    font-size: 25px;
+    color: white;
+}
+
+.container i {
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius:50% ;
+    padding: 20px;
+ 
+}
+.container i:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.container span {
+    color: white;
+   
+}
+
+
+.our-story {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+}
+.our {
+    width: 80%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+
+.story {
+    width: 48%;
+    height: 600px;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+.story h5 {
+    color: #EFBA6C;
+    padding-top: 150px;
+}
+
+.story img {
+    width: 100%;
+    height: 100%;
+}
+
+.journey {
+    width: 100%;
+    height: 120vh;
+    /* border: 1px solid black; */
+}
+.strat {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.strat h5 {
+    color: #EFBA6C;
+}
+.stat {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.jry {
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    text-align: center;
+    
+    
+}
+
+.jry img {
+    width: 100%;
+    height: 80%;
+   
+}
+
+.jry img:hover {
+    transform: scale(1.1);
+    transition: 2s;
+}
+.jry button {
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #EFBA6C;
+    border: none;
+    color: white;
+   
+
+
+}
+.jry h3  {
+
+    font-size: 22px;
+}
+
+
+
+
+
+.our-team {
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+}
+
+.staff {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.staff h5 {
+    color: #EFBA6C;
+}
+.team {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.otm {
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.otm img {
+    width: 65%;
+    height: auto;
+}
+
+.otm i {
+    border-radius: 50%;
+    margin-left: 20px;
+    font-size: 30px;
+    background-color: #FCF1E2;
+    color: #EFBA6C;
+    padding: 10px;
+}
+
+
+.customers {
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+}
+.testimony {
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+}
+.testimony h5 {
+    color: #EFBA6C;
+}
+.cust {
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+
+
+.ctr {
+    width: 30%;
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #EFBA6C;
+}
+.cr1 {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding-top: 50px;
+}
+.cr1 img {
+    width: 100%;
+    height: 40%;
+    border-radius: 50%;
+    
+}
+.cr2 {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.cr2 p {
+    font-size: 15px;
+}
+
+
+.our-blog {
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+.updets{
+
+    width: 100%;
+    height: 20vh;
+    /* border: 1px solid black; */
+}
+.updets h5 {
+    color: #EFBA6C;
+}
+
+.blog {
+    width: 80%;
+    height: 80vh;
+    /* border: 1px solid black; */
+}
+
+.blg {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.blg img {
+    width: 80%;
+    height: 65%;
+}
+.blg a {
+    text-decoration: none;
+    color: #EFBA6C;
+}
+
+
+.trip {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    background-image:linear-gradient(rgba(235, 198, 142, 0.5),rgba(235, 198, 142, 0.5)), url(image/hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.trip button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #EFBA6C;
+    color: white;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+} 
+.foot {
+    width: 80%;
+    height:400px;
+    /* border: 1px solid black; */
+}
+
+.ftr {
+    width: 30%;
+    height:400px;
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+
+
+.ftext {
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.fim {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+    .fimg {
+        width: 28%;
+        height: 100px;
+        /* border: 1px solid black; */
+    }
+
+
+    .fimg img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .ftr h5 {
+        color: #EFBA6C;
+    }
+    .ftr input{
+
+        width: 200px;
+        height: 50px;
+    }
+
+    .ftr button {
+         width: 100px;
+        height: 50px;
+        background-color: #EFBA6C;
+        border: none;
+     
+    }
+
+
+    .foor {
+        width: 100%;
+        height: 100px;
+        /* border: 1px solid black ; */
+    }
+
+    .foor a {
+        text-decoration: none;
+        color: #EFBA6C;
+    }
+    .foor i {
+        color: red;
+    }
+@media(max-width:992px)
+
+{
+    .our-story {
+        height: auto;
+    }
+    .our {
+        height: auto;
+        width: 90%;
+        /* flex-direction: column; */
+    }
+    .story {
+        /* width: 100%; */
+        height: auto;
+    }
+    .story h5 {
+        padding-top: 10px;
+    }
+
+    .journey {
+        height: auto;
+    }
+    .stat {
+        height: auto;
+        width: 90%;
+       
+    }
+    .jry {
+       
+        margin-top: 20px;
+    }
+
+    
+    .our-team {
+        height: auto;
+    }
+    .team {
+        height: auto;
+        width: 90%;
+        
+    }
+    .otm {
+       
+        height: auto;
+    }
+    .otm p {
+        font-size: 15px;
+    }
+    .customers {
+        height: auto;
+    }
+    .cust {
+        height: auto;
+        
+        width: 90%;
+    }
+    .ctr {
+        
+    }
+    .cr2 p {
+        font-size: 12px;
+    }
+
+    .our-blog {
+        height: auto;
+    }
+    .blog {
+        height: auto;
+        width: 90%;
+    }
+    .blg {
+    
+        height: auto;
+    }
+
+    
+    footer {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+        /* flex-direction: column; */
+        width: 90%;
+    }
+   
+}
+
+
+
+
+
+@media(max-width:768px)
+{
+    .container h1 {
+        font-size: 40px;
+    }
+    .container p {
+        font-size: 23px;
+    }
+    .container i {
+        font-size: 22px;
+    }
+    .our-story {
+        height: auto;
+    }
+    .our {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .story {
+        width: 100%;
+        height: auto;
+    }
+
+    .journey {
+        height: auto;
+    }
+    .stat {
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .jry {
+        width: 48%;
+        margin-top: 20px;
+    }
+
+    
+    .our-team {
+        height: auto;
+    }
+    .team {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .otm {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+    .otm p {
+        font-size: 25px;
+    }
+
+    .customers {
+        height: auto;
+    }
+    .cust {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .ctr {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cr1 img {
+        height: 60%;
+    }
+
+    .our-blog {
+        height: auto;
+    }
+    .blog {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .blg {
+        width: 100%;
+        height: auto;
+    }
+    
+    footer {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+        flex-direction: column;
+        width: 80%;
+    }
+    .ftr {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:576px)
+{
+    .container h1 {
+        font-size: 35px;
+    }
+    .container p {
+        font-size: 20px;
+    }
+    .container i {
+        font-size: 20px;
+    }
+
+    .our-story {
+        height: auto;
+    }
+    .our {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .story {
+        width: 100%;
+        height: auto;
+    }
+
+    .journey {
+        height: auto;
+    }
+    .stat {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .jry {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .our-team {
+        height: auto;
+    }
+    .team {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+    }
+    .otm {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .customers {
+        height: auto;
+    }
+    .cust {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .ctr {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .our-blog {
+        height: auto;
+    }
+    .blog {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .blg {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+    }
+    .foot {
+        height: auto;
+        flex-direction: column;
+        width: 90%;
+    }
+    .ftr {
+        width: 100%;
+    }
+}
