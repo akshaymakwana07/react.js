@@ -23,7 +23,7 @@ function Todo() {
 
       <input 
       type='text'
-      placeholder='Enter Your TAsk'
+      placeholder='Enter Your Task'
       value={inputValue}
       onChange={(e)=>setinputValue(e.target.value)}
       />
