@@ -7,8 +7,8 @@ function Home({ posts ,deletePost }) {
     deletePost(id)
   }
   return (
-    <div>
-      <h1>Welcome To our Page</h1>
+    <div className='pg1'>
+      <h1 className='txt1'> Welcome To Our Restaurant</h1>    
       {
         posts.map((el) => (
           <div key={el.id}> 
@@ -16,13 +16,13 @@ function Home({ posts ,deletePost }) {
             <p>{el.content}</p>
             <button className='btn1' onClick={()=>handleDelete(el.id)}><i class="bi bi-archive-fill"></i></button>
             {/* <Link>
-            <button className='btn5'><i class="bi bi-pencil-square"></i></button>
+            <button className='btn5'></button>
             </Link> */}
-            <Link to = {`/edit/ ${el.id}`}> Edit</Link>
+            <Link className='btn5' to = {`/edit/${el.id}`}> <i class="bi bi-pencil-square"></i></Link>
           </div> 
         ))
       }<br/><br/>
-      <Link className='btn4' to="/add">ADD POST</Link>
+      <Link className='btn4' to="/add">ADD DISH NOW</Link>
     </div>
   );
 }

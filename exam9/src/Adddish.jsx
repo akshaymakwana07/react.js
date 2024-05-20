@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link , useNavigate} from 'react-router-dom'
 
-function Addpost({addnewPost}) {
+function Adddish({addnewPost}) {
 
     const [title,setTitle] = useState('')
     const [content,setContent] = useState('')
@@ -16,16 +16,16 @@ function Addpost({addnewPost}) {
   return (
     <div className='main'>
       <div className='child'>
-      <h1>ADD POST</h1>
+      <h1>Order Dish</h1>
 
     <form onSubmit={handleSubmit}>
-        <h2 className='t1'>Title : </h2>
+        <h2 className='t1'>Enter Dish Name : </h2>
         <input className='tx1' value={title} onChange={(e)=>setTitle(e.target.value)}/> <br/><br/><br/>
 
-        <h2 className='t1'>Content :</h2>
+        <h2 className='t1'>Prize :</h2>
         <input className='tx2' value={content} onChange={(e)=>setContent(e.target.value)}></input> <br/><br/><br/>
 
-        <button className='btn3' type='submit'>ADD POST</button><br/><br/><br/>
+        <button className='btn3' type='submit'>ADD DISH</button><br/><br/><br/>
     </form>
 
 
@@ -35,4 +35,4 @@ function Addpost({addnewPost}) {
   )
 }
 
-export default Addpost
+export default Adddish
