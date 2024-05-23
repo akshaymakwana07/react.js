@@ -50,7 +50,7 @@ function App() {
       <Route path="/edit/:id" element = {<Editpost editPost={editPost} posts={posts} />}></Route>
         
       
-     </Routes>
+     </Routes>|
      </div>
     </Router>
   );

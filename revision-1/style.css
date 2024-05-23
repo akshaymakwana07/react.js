@@ -93,9 +93,69 @@
     width: 100%;
     height: 600px;
     /* border: 1px solid black; */
+    background-image: url(https://in.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/New-Homepage/2024/central/collections/core_values_campaign/Core_Values_Campaign_WW_HP_Push_V20250518_DI3.jpg?wid=2400);
+    background-size: cover;
+    /* background-position: center; */
 }
 
 .img1 img {
     width: 100%;
     height: 100%;
+}
+
+.selection{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+.selection2{
+    width: 100%;
+    height: 1000px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.select{
+    width: 80%;
+    height: 900px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sel1{
+    width: 24%;
+    height: 450px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.sel1 img {
+    width: 100%;
+    height: 85%;
+}
+
+.collection1{
+    width: 100%;
+    height: 150px;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.collection1 a {
+    color: black;
+}
+
+.cooll1{
+    /* width: 100%; */
+    height: 800px;
+    /* border: 1px solid black; */
+    background-image: url(https://player.louisvuitton.com/media/img/poster/video/1920x1080/1489/1489289.jpg);
+    background-size: cover;
+    background-position: center;
 }
