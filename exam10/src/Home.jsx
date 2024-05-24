@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-function Home({prodect}) {
-
+function Home({prodect , deleteProdect}) {
+function handleDelete(id){
+  deleteProdect(id)
+}
   return (
     <div>
       <h1>Welcome to our prodect</h1>
@@ -15,6 +17,8 @@ function Home({prodect}) {
             <h2>{el.price}</h2>
             <h2>{el.rating}</h2>
             <h2>{el.description}</h2>
+            <button className='btn1' onClick={()=>handleDelete(el.id)}>Dlete</button>
+            <Link className='btn5' to = {`/edit/${el.id}`}> edit</Link>
        
           
           </div>

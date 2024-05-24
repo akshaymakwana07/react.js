@@ -1,27 +1,28 @@
-import React, { useState } from 'react';
-import {Link , useNavigate} from 'react-router-dom'
+import { useState } from "react"
+import React from 'react'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 
 
- function ProductPage ({addnewProdect}) {
-  const [title, setTitle] = useState('');
-  const [price, setPrice] = useState('');
-  const [rating, setRating] = useState('');
-  const [description, setDescription] = useState('');
-  const navigate = useNavigate()
+function Editprodect(editprodect,prodect) {
+    const{id} = useParams()
 
-  function handleSubmit(e) {
-    e.preventDefault();
-    addnewProdect(title, price, rating, description)
-    navigate('/')
+    let ans = prodect.find(prod=>prod.id === parseInt(id))
+    const [title,setTitle] = useState (ans.title)
+    const [price,setPrice] = useState(ans.price)
+    const [rating,setRating] = useState(ans.rating)
+    const [description,setDescription] = useState(ans.description)
+
+    const navigate = useNavigate()
+
+    function handleSubmit(e){
+        e.preventDefault()
+        editprodect(ans.id, title, price,rating, description)
+        navigate('/')
+    }
     
-    console.log({ title, price, rating, description });
-  };
-
   return (
-    
-    <div className="container mt-4">
-      <h1 className="mb-4">Create Product</h1>
-      <form onSubmit={handleSubmit}>
+    <div>
+       <form onSubmit={handleSubmit}>
         <div className="row mb-3">
           <div className="col-sm-6">
             <label htmlFor="title" className="form-label">Title</label>
@@ -79,10 +80,10 @@ import {Link , useNavigate} from 'react-router-dom'
           Create
         </button>
       </form>
-      <Link className='btn2' to = "/"> back </Link>
-      
-    </div>
-  );
-};
 
-export default ProductPage;
+      <Link to ="/">BACK TO HOME</Link>
+    </div>
+  )
+}
+
+export default Editprodect
