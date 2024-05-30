@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  width: 100%;
+  height: 80px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.sub-he{
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 15%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.nav {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+
+}
+
+.nav ul{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding-top: 10px;
+}
+
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  
+}
+.nav ul li a:hover {
+  color: green;
+}
+
+.sec1{
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #FFFFFF;
+}
+
+.ph1{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.ph2{
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  background-image: url(image/LMC_20240505_182748___iPhone_14_Ultra_Pixel.PORTRAIT-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.ph3 {
+  width: 100%;
+  height: 300px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+.ph3 h3 {
+  color: #B1B493;
+}
+.ph3 h1 {
+  font-size: 40px;
+}
+.btn1 {
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+
+
+.sec2 {
+  width: 100%;
+  height: 800px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.about {
+  width: 80%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.abt1 {
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+  background-image: url(image/akshay1.png);
+  background-size: cover;
+}
+.abt2 {
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.abab {
+  padding-top: 100px;
+} 
+
+.sec3 {
+  width: 100%;
+  height: 1000px;
+  /* border: 1px solid black; */
+}
+.project1{
+  width: 100%;
+  height: 300px;
+  border: 1px solid white;
+  text-align: center;
+}
+.project1 h3 {
+  padding-top: 20PX;
+  color: #B1B493;
+}
+.project1 h1 {
+  font-size: 50px;
+}
+
+.project2{
+  width: 100%;
+  height: 700px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.proje1{
+  width: 22%;
+  height: 300px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+}
+.proje1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.sec4 {
+  width: 100%;
+  height: 800px;
+  /* border: 1px solid black; */
+}
+.contact1 {
+  width: 100%;
+  height: 200px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.contact2 {
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.count {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.cont1 {
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.cont2 {
+  width: 40%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+.cont1 input {
+  width: 90%;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 20px;
+ border: 2px solid #B1B493;
+}
+
+.cont1  textarea {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.cont1 button {
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #B1B493;
+  color: white;
+  border: none;
+}
+.cont2 h3 {
+  color: #B1B493;
+}
