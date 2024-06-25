@@ -38,7 +38,7 @@ function Postdata() {
           <input type='text' name='body' onChange={handleChange} value={post.body} />
         </label>
         <br /><br />
-        <button type='submit'>Submit</button>
+        <button type='submit' className='btn1'>Submit</button>
       </form>
     </div>
   );
