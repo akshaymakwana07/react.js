@@ -1,17 +1,20 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import { useState } from 'react'
+import { useEffect } from 'react'
 import { auth, provider } from './Config'
-import Home from './Home'
 import { signInWithPopup } from 'firebase/auth'
+import Home from './Home'
 
-function Singin() {
 
+
+function SinIn() {
     const [value, setValue] = useState("")
 
-    const handleClick=()=>{
-        signInWithPopup(auth , provider)
+    const handleClick = () =>{
+        signInWithPopup(auth,provider)
         .then((data)=>{
             setValue(data.user.email)
-            localStorage.setItem("email", data.user.email)
+            localStorage.setItem("email",data.user.email)
         }).catch((error)=>{
             console.log(error)
         })
@@ -20,14 +23,16 @@ function Singin() {
     useEffect(()=>{
         let userEmail = localStorage.getItem("email")
         if(userEmail){
-setValue(userEmail)
+            setValue(userEmail)
         }
     },[])
+
+
   return (
     <div>
-      {value ? <Home/>: <button onClick={handleClick}>SingIN With</button>}
+      {value ? <Home/> : <button onClick={handleClick}>SINGIN WITH GOOGLE</button>}
     </div>
   )
 }
 
-export default Singin
+export default SinIn
