@@ -12,6 +12,8 @@ function Registresion() {
         e.preventDefault()
         const newuserRef = ref(database, `users/${name}`);
         set( newuserRef, {name , password})
+        setName("")
+        setPassword("")
     }
 
   return (
