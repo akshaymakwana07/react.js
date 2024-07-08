@@ -1,12 +1,14 @@
 
 import React, { useState, useEffect } from 'react';
-import { ref, set, onValue } from 'firebase/database';
+import { ref, set, onValue, remove,update } from 'firebase/database';
 import { database } from './Firebase';
 
 function Registration() {
     const [name, setName] = useState("");
     const [password, setPassword] = useState("");
     const [users, setUsers] = useState([]);
+    const [update,setUpdate] = useState(false) 
+   
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -27,6 +29,23 @@ function Registration() {
                 alert("Error registering user: " + error.message);
             });
     };
+
+    const handleDelete=(userName)=>{
+        const newUserRef = ref(database, `users/${userName}`);
+        remove(newUserRef)
+        .then(()=>{
+            alert("DELETED")
+        }).catch((Err)=>{
+            console.log(Err)
+        })
+    }
+    const handleUpdate = (user) => {
+        setName(user.name)
+        setPassword(user.password)
+        setUpdate(true)
+    };
+
+   
 
     useEffect(() => {
         const usersRef = ref(database, 'users');
@@ -68,9 +87,11 @@ function Registration() {
                 <h1>Registered Users</h1>
                 <ul>
                     {users.map((user) => (
-                        <h6 key={user.name}>
-                            Name: {user.name}
-                        </h6>
+                        <>
+                        <h1> Name: {user.name}</h1>
+                        <button id='btn1' onClick={()=>handleDelete(user.name)}>DELETE</button>
+                        <button id='btn2' onClick={() => handleUpdate(user)}>UPDATE</button>
+                        </>
                     ))}
                 </ul>
             </div>
