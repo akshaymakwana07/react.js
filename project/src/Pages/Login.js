@@ -1,11 +1,11 @@
 import React from 'react'
 
-function App() {
+function Login() {
   return (
     <div>
-      <h1>dswc</h1>
+      
     </div>
   )
 }
 
-export default App
+export default Login
