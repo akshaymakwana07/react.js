@@ -6,6 +6,7 @@ import About from './pages/About'
 import Contect from './pages/Contect'
 import Menu from './pages/Menu'
 import Pagefound from './pages/Pagefound'
+import MenuItemPage from './pages/MenuItemPage'
 
 
 
@@ -19,6 +20,8 @@ function App() {
         <Route path='/menu' element={<Menu/>}/>
         <Route path='/contect' element={<Contect/>}/>
         <Route path='*' element={<Pagefound/>}/>
+        <Route path="/" element={<Menu />} />
+        <Route path="/menu/:name" element={<MenuItemPage />} />
       
        
       </Routes>
